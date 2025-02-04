@@ -1,0 +1,22 @@
+{
+    "item.kubejs.superitem":"super item",
+    "item.kubejs.supersuperitem":"super super item",
+    "block.kubejs.superblock":"super block",
+    "block.kubejs.supersuperblock":"super super block",
+    "block.kubejs.compressedcobblestone":"compressed cobblestone",
+    "block.kubejs.bakedcompressedcobblestone":"Baked compressed cobblestone",
+    "chaptergroup.karaage.start":"start",
+    "chaptergroup.karaage.lastchapter":"last chapter",
+    "chapter.karaage.getores":"get ores",
+    "chapter.karaage.getmachines1":"get machines 1",
+    "chapter.karaage.getmachines2":"get machines 2",
+    "chapter.karaage.botanypots":"get botanypots",
+    "chapter.karaage.getultimatecontrolcircuit":"get ultimate control circuit",
+    "chapter.karaage.buildthefissionreactor":"build the fission reactor",
+    "chapter.karaage.getmekanismmachines":"get mekanism machines",
+    "chapter.karaage.buildthesps":"build the sps",
+    "chapter.karaage.getblazeburner":"get blaze burner",
+    "chapter.karaage.eheeeginningoftheend":"The Beginning of the End",
+    "quest.karaage.superitem":"super item",
+    "subtitle.karaage.doyouhavemorethanonetypeofore":"Do you have more than one type of ore?"
+}
