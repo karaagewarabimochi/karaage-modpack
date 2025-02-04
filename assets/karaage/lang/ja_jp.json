@@ -1,0 +1,16 @@
+{
+    "chapter.karaage.getores":"鉱石を入手する",
+    "chapter.karaage.getmachines1":"機械を入手する その１",
+    "chapter.karaage.getmachines2":"機械を入手する その２",
+    "chapter.karaage.botanypots":"botanypotsを入手する",
+    "chapter.karaage.getultimatecontrolcircuit":"究極制御回路を入手する",
+    "chapter.karaage.buildthefissionreactor":"核分裂炉の建設",
+    "chapter.karaage.getmekanismmachines":"mekanismの機械を入手する",
+    "chapter.karaage.buildthesps":"spsの建設",
+    "chapter.karaage.getblazeburner":"ブレイズバーナーを入手する",
+    "chapter.karaage.eheeeginningoftheend":"終わりの始まり",
+    "quest.karaage.superitem":"すごいアイテム",
+    "chaptergroup.karaage.start":"始まり",
+    "chaptergroup.karaage.lastchapter":"最終章",
+    "subtitle.karaage.doyouhavemorethanonetypeofore":"鉱石の種類は１つ以上ありますか?"
+}
