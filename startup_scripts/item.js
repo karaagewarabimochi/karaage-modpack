@@ -11,7 +11,6 @@ StartupEvents.registry('item', event => {
         .saturation(0.5) // This value does not directly translate to saturation points gained
       }) // This texture would be located at kubejs/assets/mobbo/textures/item/lava.png
   
-    event.create('rawsuperitem').texture('kubejs:item/raw_superitem')
   
     event.create('testitem').texture('kubejs:item/testitem')
   

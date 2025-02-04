@@ -3,8 +3,6 @@ StartupEvents.registry('block', event => {
   event.create('supersuperblock').textureAll('kubejs:block/supersuperblock')
   event.create('compressedcobblestone').textureAll('kubejs:block/compressed_cobblestone').stoneSoundType()
   event.create('bakedcompressedcobblestone').textureAll('kubejs:block/baked_compressed_cobblestone').stoneSoundType()
-  event.create('deepslate_superitem_ore').textureAll('kubejs:block/deepslate_superitem_ore').stoneSoundType().hardness(3.0).resistance(1.0).requiresTool(true).tagBlock('minecraft:mineable/pickaxe').tagBlock('minecraft:needs_iron_tool')
-  event.create('superitem_ore').textureAll('kubejs:block/superitem_ore').stoneSoundType().hardness(2.0).resistance(1.0).requiresTool(true).tagBlock('minecraft:mineable/pickaxe').tagBlock('minecraft:needs_iron_tool')
   event.create('testblock').textureAll('kubejs:block/testblock')
   event.create('karaage:testblock').textureAll('karaage:block/testblock')
 })
