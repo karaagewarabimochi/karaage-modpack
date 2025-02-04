@@ -15,5 +15,7 @@ StartupEvents.registry('item', event => {
     event.create('testitem').texture('kubejs:item/testitem')
   
     event.create('karaage:testitem').texture('karaage:item/testitem')
+
+    event.create('karaage:nuclear_material').texture('karaage:item/nuclear_material')
   
   })
