@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
 
     event.recipes.mekanism.crushing( '10x kubejs:superitem', 'kubejs:superblock')
 
-    event.recipes.mekanism.purifying('minecraft:dirt', 'minecraft:coarse_dirt', {gas: 'mekanism:oxygen', amount: 200})
+    event.recipes.mekanism.purifying('minecraft:dirt', 'minecraft:coarse_dirt', {gas: 'mekanism:oxygen', amount: 2})
 
     event.recipes.mekanism.enriching('kubejs:compressedcobblestone','64x minecraft:cobblestone')
     
