@@ -13,24 +13,6 @@ ServerEvents.recipes(event => {
           D: 'mekanism:steel_casing'
         }
       )
-  
-  
-  
-    //event.shaped(
-    //  Item.of('kubejs:superitem'), // arg 1: output
-    //  [
-    //    'ABA',
-    //    'CEC', // arg 2: the shape (array of strings)
-    //    'DBD'
-    //  ],
-    //  {
-    //    A: 'minecraft:gold_block',
-    //    B: 'mekanism:block_osmium',  //arg 3: the mapping object
-    //    C: 'minecraft:iron_block',
-    //    D: 'minecraft:redstone_block',
-    //    E: 'minecraft:coal_block'
-    //  }
-    //)
 
     event.shaped(
       Item.of('kubejs:superblock'), // arg 1: output
