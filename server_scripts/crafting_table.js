@@ -1,24 +1,24 @@
 ServerEvents.recipes(event => {
     event.shaped(
-        Item.of('mekanism:crusher'), // arg 1: output
+        Item.of('mekanism:crusher'),
         [
           'ABA',
-          'CDC', // arg 2: the shape (array of strings)
+          'CDC',
           'ABA'
         ],
         {
           A: 'minecraft:redstone',
-          B: 'mekanism:basic_control_circuit',  //arg 3: the mapping object
+          B: 'mekanism:basic_control_circuit',
           C: 'create:crushing_wheel',
           D: 'mekanism:steel_casing'
         }
       )
 
     event.shaped(
-      Item.of('kubejs:superblock'), // arg 1: output
+      Item.of('kubejs:superblock'),
       [
         'AAA',
-        'AAA', // arg 2: the shape (array of strings)
+        'AAA',
         'AAA'
       ],
       {
@@ -27,10 +27,10 @@ ServerEvents.recipes(event => {
     )
 
     event.shaped(
-      Item.of('kubejs:supersuperitem'), // arg 1: output
+      Item.of('kubejs:supersuperitem'),
       [
         'AAA',
-        'AAA', // arg 2: the shape (array of strings)
+        'AAA',
         'AAA'
       ],
       {
@@ -39,10 +39,10 @@ ServerEvents.recipes(event => {
     )
 
     event.shaped(
-      Item.of('kubejs:supersuperblock'), // arg 1: output
+      Item.of('kubejs:supersuperblock'),
       [
         'AAA',
-        'AAA', // arg 2: the shape (array of strings)
+        'AAA',
         'AAA'
       ],
       {
@@ -51,75 +51,75 @@ ServerEvents.recipes(event => {
     )
 
     event.shapeless(
-      Item.of('kubejs:superitem', 9), // arg 1: output
+      Item.of('kubejs:superitem', 9),
       [
         'kubejs:superblock'
       ]
     )
 
     event.shapeless(
-      Item.of('kubejs:superblock', 9), // arg 1: output
+      Item.of('kubejs:superblock', 9),
       [
         'kubejs:supersuperitem'
       ]
     )
 
     event.shapeless(
-      Item.of('kubejs:supersuperitem', 9), // arg 1: output
+      Item.of('kubejs:supersuperitem', 9),
       [
         'kubejs:supersuperblock'
       ]
     )
 
     event.shaped(
-      Item.of('mekanism:combiner'), // arg 1: output
+      Item.of('mekanism:combiner'),
       [
         'ABA',
-        'CDC', // arg 2: the shape (array of strings)
+        'CDC',
         'ABA'
       ],
       {
         A: 'minecraft:redstone',
-        B: 'mekanism:basic_control_circuit',  //arg 3: the mapping object
+        B: 'mekanism:basic_control_circuit',
         C: 'minecraft:iron_ingot',
         D: 'mekanism:steel_casing'
       }
     )
   
     event.shaped(
-      Item.of('torcherino:torcherino'), // arg 1: output
+      Item.of('torcherino:torcherino'),
       [
         'AAA',
-        'ABA', // arg 2: the shape (array of strings)
+        'ABA',
         'AAA'
       ],
       {
         A: 'mekanism:pellet_antimatter',
-        B: 'minecraft:torch'  //arg 3: the mapping object
+        B: 'minecraft:torch'
       }
     )
 
     event.shaped(
-      Item.of('botanypots:terracotta_hopper_botany_pot'), // arg 1: output
+      Item.of('botanypots:terracotta_hopper_botany_pot'),
       [
-        'A A', // arg 2: the shape (array of strings)
+        'A A',
         'AAA'
       ],
       {
-        A: 'kubejs:supersuperblock'  //arg 3: the mapping object
+        A: 'kubejs:supersuperblock'
       }
     )
 
     event.shaped(
-      Item.of('create:electron_tube'), // arg 1: output
+      Item.of('create:electron_tube'),
       [
         'AAA',
-        'ABA', // arg 2: the shape (array of strings)
+        'ABA',
         'CCC'
       ],
       {
         A: 'minecraft:glass',
-        B: 'create:polished_rose_quartz',  //arg 3: the mapping object
+        B: 'create:polished_rose_quartz',
         C: 'minecraft:iron_ingot'
       }
     )
