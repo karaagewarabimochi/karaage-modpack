@@ -89,6 +89,4 @@ ServerEvents.recipes(event => {
         G: 'create:blaze_burner',
         H: 'mekanism:pellet_plutonium'
         })
-
-    event.remove({ id: 'create:crushing/gravel' })
 })

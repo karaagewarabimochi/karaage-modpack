@@ -56,10 +56,5 @@ ServerEvents.recipes(event => {
         20 // max growth ticks applied
         // ex: 10 to 20 ticks will be randomly given to the crop
     )
-
-    event.remove({ mod: 'botanypots' })
-
-    event.remove({ mod: 'botanypotstiers' })
-
-    
+   
 })

@@ -137,16 +137,4 @@ ServerEvents.recipes(event => {
         D: 'mekanism:steel_casing'
       }
     )
-
-    event.remove({ id: 'torcherino:torcherino'})
-
-    event.remove({ id: 'mekanism:crusher'})
-
-    event.remove({ id: 'mekanism:combiner'})
-
-    event.remove({ id: 'mekanism:enrichment_chamber'})
-
-    event.remove({ id: 'create:crafting/materials/electron_tube'})
-  
-    event.remove({ mod: 'ironjetpacks' })
 })
