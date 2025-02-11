@@ -11,7 +11,9 @@
     "chapter.karaage.getblazeburner":"get blaze burner",
     "chapter.karaage.eheeeginningoftheend":"The Beginning of the End",
     "quest.karaage.superitem":"super item",
-    "subtitle.karaage.doyouhavemorethanonetypeofore":"Do you have more than one type of ore?",
+    "quest.karaage.buildtheindustrialturbine":"build the industrial turbine",
     "chaptergroup.karaage.start":"start",
-    "chaptergroup.karaage.lastchapter":"last chapter"
+    "chaptergroup.karaage.lastchapter":"last chapter",
+    "subtitle.karaage.doyouhavemorethanonetypeofore":"Do you have more than one type of ore?",
+    "item.karaage.nuclear_material":"nuclear material"
 }

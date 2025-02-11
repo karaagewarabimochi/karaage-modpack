@@ -68,6 +68,11 @@ ServerEvents.recipes(event => {
         Item.of('2x minecraft:diamond').withChance(0.1),
         ], 'kubejs:compressedcobblestone')
 
+    event.recipes.createCrushing([
+        '10x karaage:plutonium_pellet',
+        '10x karaage:polonium_pellet'
+    ], 'karaage:nuclear_material')
+
     event.recipes.createMechanicalCrafting('kubejs:testitem', [
         ' FGHHHGF ',
         'FFEDDDEFF',

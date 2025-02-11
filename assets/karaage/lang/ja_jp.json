@@ -11,7 +11,9 @@
     "chapter.karaage.getblazeburner":"ブレイズバーナーを入手する",
     "chapter.karaage.eheeeginningoftheend":"終わりの始まり",
     "quest.karaage.superitem":"すごいアイテム",
+    "quest.karaage.buildtheindustrialturbine":"タービンの建設",
     "chaptergroup.karaage.start":"始まり",
     "chaptergroup.karaage.lastchapter":"最終章",
-    "subtitle.karaage.doyouhavemorethanonetypeofore":"鉱石の種類は１つ以上ありますか?"
+    "subtitle.karaage.doyouhavemorethanonetypeofore":"鉱石の種類は１つ以上ありますか?",
+    "item.karaage.nuclear_material":"核物質"
 }

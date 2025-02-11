@@ -17,5 +17,9 @@ StartupEvents.registry('item', event => {
     event.create('karaage:testitem').texture('karaage:item/testitem')
 
     event.create('karaage:nuclear_material').texture('karaage:item/nuclear_material')
+
+    event.create('karaage:plutonium_pellet').texture('karaage:item/plutonium_pellet')
+
+    event.create('karaage:polonium_pellet').texture('karaage:item/polonium_pellet')
   
   })
