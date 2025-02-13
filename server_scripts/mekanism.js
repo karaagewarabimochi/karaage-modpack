@@ -14,4 +14,8 @@ ServerEvents.recipes(event => {
     event.recipes.mekanism.purifying('minecraft:dirt', 'minecraft:coarse_dirt', {gas: 'mekanism:oxygen', amount: 2})
 
     event.recipes.mekanism.enriching('kubejs:compressedcobblestone','64x minecraft:cobblestone')
+
+    event.recipes.mekanism.enriching('mekanism:substrate','64x mekanism:bio_fuel')
+
+    event.recipes.mekanism.enriching('mekanism:hdpe_pellet','mekanism:substrate')
 })

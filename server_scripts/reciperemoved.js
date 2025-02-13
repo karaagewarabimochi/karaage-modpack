@@ -11,6 +11,8 @@ ServerEvents.recipes(event => {
 
     event.remove({ id: 'mekanism:enrichment_chamber'})
 
+    event.remove({ id: 'fluxnetworks:fluxcore'})
+
     event.remove({ id: 'torcherino:torcherino'})
 
     event.remove({ mod: 'botanypots' })

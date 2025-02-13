@@ -137,4 +137,17 @@ ServerEvents.recipes(event => {
         D: 'mekanism:steel_casing'
       }
     )
+    event.shaped(
+      Item.of('4x fluxnetworks:flux_core'),
+      [
+        'ABA',
+        'BCB',
+        'ABA'
+      ],
+      {
+        A: 'fluxnetworks:flux_dust',
+        B: 'minecraft:obsidian',
+        C: 'karaage:nuclear_material',
+      }
+    )
 })
